@@ -8,6 +8,6 @@ skills:
 - 3-D Modeling
 - Fatigue Analysis
 - Transient Simulation
-main-image: /vivacethumbnail.webp
+main-image: /VIVACE_THUMBNAIL.webp
 
 ---

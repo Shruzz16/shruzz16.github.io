@@ -13,12 +13,9 @@ title: Shrujal Zala's Portfolio # This is what shows up in the tab of the browse
 
 # Hero Section
 name: Shrujal Zala
-headline: headline message
+headline: Mechanical Core, Code and Capacitance
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-
+ “M.S. Mechanical Engineering student with hands-on experience in FEA, CFD, mechanical design, and optimization. Passionate about turning ideas into high-performance systems while continuously expanding expertise in MEMS, PCB design, power electronics, and coding. Skilled in bridging simulation, design, and analysis to solve complex engineering challenges.”
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
 

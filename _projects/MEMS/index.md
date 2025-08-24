@@ -7,5 +7,5 @@ skills:
 - MEMS Chip Designing
 - Modal Anaylsis
 - Electrostatic Analysis
-main-image: /MEMS.webp 
+main-image: /MEMS Portfolio.webp 
 ---

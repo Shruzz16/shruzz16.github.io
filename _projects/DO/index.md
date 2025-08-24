@@ -1,3 +1,4 @@
+---
 
 layout: post
 title: Optimization of a Passenger Vehicle Suspension System for
@@ -10,3 +11,5 @@ skills:
 - Genetic Algorithm
 - Optimization
 main-image: /DO_PORTFOLIO.png
+
+---

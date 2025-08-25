@@ -153,7 +153,7 @@ plugins:
 
 include:
   - _projects
-  -_internshipas
+  -_internships
 
 
 # Exclude from processing.

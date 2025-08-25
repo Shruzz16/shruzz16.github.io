@@ -130,6 +130,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+    internships:
+    output: true
+    permalink: /internships/:path/
 
 
 markdown: kramdown
@@ -150,6 +153,7 @@ plugins:
 
 include:
   - _projects
+  -_internshipas
 
 
 # Exclude from processing.

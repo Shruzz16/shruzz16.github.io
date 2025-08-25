@@ -1,83 +1,70 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+# ==============================
+# Shrujal Zala Portfolio - _config.yml
+# ==============================
 
 # Main Page Setup
-
-title: Shrujal Zala's Portfolio # This is what shows up in the tab of the browser
-
-
+title: Shrujal Zala's Portfolio
 
 # Hero Section
 name: Shrujal Zala
-headline: Mechanical Core, Code and Capacitance
-description: >- # dont remove this line. this will ignore all new lines until the next section
- M.S. Mechanical Engineering student with hands-on experience in FEA, CFD, mechanical design, and optimization. Passionate about turning ideas into high-performance systems while continuously expanding knowledge in MEMS, PCB design, power electronics, and coding. Skilled in bridging simulation, design, and analysis to solve complex engineering challenges.
-# Place your profile image in /assets/images/profile-image/folder and edit the file name
+headline: Mechanical Core, Code, and Capacitance
+description: >-
+  M.S. Mechanical Engineering student with hands-on experience in FEA, CFD, mechanical design, and optimization. Passionate about turning ideas into high-performance systems while continuously expanding knowledge in MEMS, PCB design, power electronics, and coding. Skilled in bridging simulation, design, and analysis to solve complex engineering challenges.
 profile_image: ./assets/images/profile-image/shrujalgit.jpeg
 
+# Resume
+resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing
 
-# Link your resume
-# You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing # or /assets/resume/resume.pdf
-
-
-# Set up external links - this will show up as small icons next to your name.
-
-external-links:    # input only your own url slug. The icons with missing entries will not appear.
+# External Links
+external-links:
   linkedin: https://www.linkedin.com/in/shrujalzala16/
-  github: shruzz16    # https://github.com/{your url slug} 
-  stackoverflow:       # https://stackoverflow.com/users/{your url slug}
-  medium:            # https://medium.com/@{your url slug} 
-  x-twitter:   # https://x.com/{your url slug} 
-  threads:            # https://threads.net/@{your url slug} 
-  instragram:       # https://instagram.com/{your url slug} 
-  youtube:           # https://youtube.com/@{your url slug} 
-  discord:            # https://discord.com/users/{your url slug} 
-  bluesky:           # https://bsky.app/profile/{your url slug} 
-  
+  github: shruzz16
+  stackoverflow: 
+  medium: 
+  x-twitter: 
+  threads: 
+  instragram: 
+  youtube: 
+  discord: 
+  bluesky: 
 
-# Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
+# Skills
 skills:
   - category: Modeling & Simulation
     tools:
-    - Autocad
-    - Solidworks
-    - Fusion 360 (Autodesk)
-    - Ansys Spaceclaim
-    - Ansys Transient Mechancial
-    - Ansys Fluent
-    - LS-DYNA
-    - Hyperworks
+      - AutoCAD
+      - SolidWorks
+      - Fusion 360 (Autodesk)
+      - ANSYS SpaceClaim
+      - ANSYS Transient Mechanical
+      - ANSYS Fluent
+      - LS-DYNA
+      - HyperWorks
 
   - category: Prototyping
     tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - Laser Cutting
-    
+      - SLA
+      - CNC
+      - FDM
+      - SLS
+      - Laser Cutting
+
   - category: PCB Design
     tools:
-    - Altium Designer
-    - Altium
+      - Altium Designer
+      - Altium
+
   - category: Problem Solving / Risk Management
     tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
+      - Root Cause Analysis (5 Whys, Fishbone Diagram)
+      - DFMEA / PFMEA
+      - Six Sigma methodologies
 
-# Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
+# Contact Form (Formspree)
+formspree-key: https://formspree.io/f/{8-digit key}
 
-
-
-# Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
-colors: # this is the basic theme
+# Colors & Themes
+colors:
   text: "#1a1c20"
   border: "#ddd"
   link: "#4a76ee"
@@ -85,32 +72,32 @@ colors: # this is the basic theme
   background: "#ffffff"
   light_background: "#f3f5fb"
 
-# A few examples. 
-basic theme:
+# Theme Examples
+'basic theme':
   text: "#1a1c20"
   border: "#ddd"
   link: "#4a76ee"
   highlight: "#0c0cf2"
   background: "#ffffff"
   light_background: "#f3f5fb"
-  
-  mint theme:
+
+'mint theme':
   text: "#2c3333"
   border: "#e0f2ef"
   link: "#40b3a2"
   highlight: "#2a9d8f"
   background: "#f7fbfa"
   light_background: "#f0f9f7"
-  
-lemon theme:
+
+'lemon theme':
   text: "#2d2926"
   border: "#f7f3e3"
   link: "#ffc94d"
   highlight: "#ffb800"
   background: "#fffdf5"
   light_background: "#fff9e6"
-  
-  pink theme:
+
+'pink theme':
   text: "#2d2d2d"
   border: "#f8e2e2"
   link: "#ff8fa3"
@@ -118,14 +105,7 @@ lemon theme:
   background: "#fff8f8"
   light_background: "#fff5f6"
 
-
-
-
-
-
-#########################################################################################################
-# Build settings for the site. Editing the below may cause the site to malfunction.
-
+# Build Settings
 collections:
   projects:
     output: true
@@ -133,7 +113,6 @@ collections:
   internships:
     output: true
     permalink: /internships/:path/
-
 
 markdown: kramdown
 highlighter: rouge
@@ -155,23 +134,11 @@ include:
   - _projects
   - _internships
 
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+# Exclude from processing (optional)
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
-#   - gemfiles/
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+#   - vendor/

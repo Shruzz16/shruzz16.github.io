@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: Hierarchical Porous Structures: Design and Analysis
 description: • Designed and fabricated copper porous structures with varying channel diameters. Conducted Microscopic Study using an Electronic Microscope to measure shrinkage percentages across green, pre-sintered, and sintered stages.

@@ -130,7 +130,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-    internships:
+  internships:
     output: true
     permalink: /internships/:path/
 

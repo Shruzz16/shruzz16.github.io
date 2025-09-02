@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: Design Optimization of Driver Safety Parameters for an Obese Female Occupant in Toyota RAV4
 description: 

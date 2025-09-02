@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: Designing of Submarine and Underwater Robot
 description: 

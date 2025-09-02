@@ -40,6 +40,9 @@ skills:
       - ANSYS Fluent
       - LS-DYNA
       - HyperWorks
+      - Stress Analysis
+      - Thermal Analysis
+      
 
   - category: Prototyping
     tools:
@@ -53,6 +56,7 @@ skills:
     tools:
       - Altium Designer
       - Altium
+      - PLECS
 
   - category: Problem Solving / Risk Management
     tools:

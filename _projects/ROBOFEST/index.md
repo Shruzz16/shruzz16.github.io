@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: Designing of Submarine and Underwater Robot
 description: 
@@ -10,5 +9,6 @@ skills:
 - 3-D Modeling
   
 main-image: /Robofest.png
+
 
 ---

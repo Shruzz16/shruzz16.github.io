@@ -8,6 +8,6 @@ skills:
 - Sintering
 - Structural Charectarization
 - Porosity Analysis
-main-image: /ME590-01.png
+main-image: /Fall-590.png
 
 ---

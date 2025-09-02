@@ -7,7 +7,6 @@ Received a cash prize of Rs. 50,000/- for outstanding idea in robot making.
 
 skills: 
 - 3-D Modeling
-  
 main-image: /Robofest.png
 
 

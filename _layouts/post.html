@@ -4,11 +4,39 @@ layout: wrapper
 
 <div class="post-view">
     <div class="summary">
-        
-       
         {% assign folder_path = page.path | split: "/" | slice: 0, 2 | join: "/" %}
+        {% if page.images and page.images.size > 1 %}
+          <!-- Dynamic Bootstrap Carousel -->
+          <div id="portfolioCarousel-{{ page.slug | default: page.title | slugify }}" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              {% for image in page.images %}
+                {% assign image_path = "/" | append: folder_path | append: image %}
+                <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                  <img src="{{ image_path }}" class="d-block w-100" alt="{{ page.title }} image {{ forloop.index }}">
+                </div>
+              {% endfor %}
+            </div>
+        
+            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel-{{ page.slug | default: page.title | slugify }}" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel-{{ page.slug | default: page.title | slugify }}" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        {% else %}
+          <!-- Static fallback image -->
+          {% assign image_path = "/" | append: folder_path | append: page['main-image'] %}
+          <img src="{{ image_path }}" alt="{{ page.title }} image" class="d-block w-100">
+        {% endif %}
+
+        
+        <!-- {% assign folder_path = page.path | split: "/" | slice: 0, 2 | join: "/" %}
         {% assign image_path = "/" | append: folder_path | append: page['main-image'] %}       
         <img src="{{ image_path }}" alt="{{ page.title }} image">
+         -->
         
         <div class="title-header">
             <h1>{{page.title}}</h1>

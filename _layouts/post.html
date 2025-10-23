@@ -30,8 +30,8 @@ layout: wrapper
           </div>
         {% else %}
           <!-- Static single image -->
-          {% assign image_path = "/" | append: folder_path | append: item['main-image'] %}
-          <img src="{{ image_path }}" alt="{{ item.title }} image" class="d-block w-100">
+          {% assign image_path = "/" | append: folder_path | append: page['main-image'] %}
+          <img src="{{ image_path }}" alt="{{ page.title }} image" class="d-block w-100">
         {% endif %}       
 
         <div class="title-header">

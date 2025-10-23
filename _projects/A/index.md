@@ -14,6 +14,6 @@ skills:
 - Energy Efficiency Optimization  
 main-image: /IITB-HVAC.png
 images:
-- IITB-HVAC-2.png
-- IITB-HVAC-3.png
+- /IITB-HVAC-2.png
+- /IITB-HVAC-3.png
 ---

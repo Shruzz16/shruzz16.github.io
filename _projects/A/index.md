@@ -12,8 +12,10 @@ skills:
 - ANSYS Fluent & SpaceClaim  
 - Turbulence Modeling & Validation  
 - Energy Efficiency Optimization  
-main-image: /IITB-HVAC.png
+
+main-image: /_projects/A/IITB-HVAC.png
 images:
-- /IITB-HVAC-2.png
-- /IITB-HVAC-3.png
+- /_projects/A/IITB-HVAC-2.png
+- /_projects/A/IITB-HVAC-3.png
 ---
+

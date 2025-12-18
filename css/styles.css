@@ -946,4 +946,51 @@ footer p {
 
       
 }
+/* Project page: grid gallery (replaces carousel) */
+.post-view .summary .portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.post-view .summary .portfolio-grid a {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.post-view .summary .portfolio-grid img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0;     /* the <a> handles rounding */
+  margin-bottom: 0;     /* override existing .summary img margin */
+  aspect-ratio: auto;   /* override your 3/1 rule */
+}
+
+/* Responsive columns */
+@media (max-width: 1200px) {
+  .post-view .summary .portfolio-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .post-view .summary .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .post-view .summary .portfolio-grid img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .post-view .summary .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+  .post-view .summary .portfolio-grid img {
+    height: 200px;
+  }
+}
 

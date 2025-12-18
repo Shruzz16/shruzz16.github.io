@@ -981,7 +981,7 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
   }
   .post-view .summary .portfolio-grid img {
-    height: 150px;
+    height: 110px; /* was 150px */
   }
 }
 
@@ -990,7 +990,8 @@ footer p {
     grid-template-columns: 1fr;
   }
   .post-view .summary .portfolio-grid img {
-    height: 200px;
+    height: 140px; /* was 200px */
   }
 }
+
 

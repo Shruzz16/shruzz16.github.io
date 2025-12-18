@@ -15,7 +15,7 @@ skills:
 
 main-image: /_projects/A/IITB-HVAC.png
 images:
-- /_projects/A/IITB-HVAC-2.png
-- /_projects/A/IITB-HVAC-3.png
+- /IITB-HVAC-2.png
+- /IITB-HVAC-3.png
 ---
 

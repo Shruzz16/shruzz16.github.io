@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >-
-  MECHENG 553 MEMS Final Project | Design & Analysis of a MEMS Electro-Thermal Micro-Actuator (Microgripper) | University of Michigan
+Design & Analysis of a MEMS Electro-Thermal Micro-Actuator (Microgripper) | University of Michigan
 description: >-
   Designed and analyzed a polysilicon electro-thermal microgripper based on a U-shaped hot/cold arm architecture. Built a
   defensible electro-thermal-mechanical workflow combining closed-form scaling laws (displacement, temperature, resistance,
@@ -24,7 +24,7 @@ images:
     
 ---
 
-## Overview
+
 Designed and analyzed a **MEMS electro-thermal microactuator / microgripper** that generates **in-plane jaw motion** via
 **differential Joule heating** in asymmetric polysilicon beams: a narrow **hot arm** (high resistance/current density) and a wider
 **cold arm** (heat-sinking, higher stiffness). The goal was to connect first-principles models to measurable performance:

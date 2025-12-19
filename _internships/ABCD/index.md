@@ -15,9 +15,9 @@ skills:
 main-image: /VIVACE_model.png
 images:
   - /actual model.jpeg
-  - simplified model.jpeg
-  - fatigue.jpeg
-  - stress.jpeg
+  - /simplified model.jpeg
+  - /fatigue.jpeg
+  - /stress.jpeg
 ---
 
 ## Overview

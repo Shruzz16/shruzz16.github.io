@@ -15,12 +15,10 @@ skills:
   - Design Iteration & Validation
 main-image: /assets/images/projects/mems_microgripper/main.png
 images:
-  - /assets/images/projects/mems_microgripper/device_geometry.png
-  - /assets/images/projects/mems_microgripper/mask.png
-  - /assets/images/projects/mems_microgripper/comsol_displacement.png
-  - /assets/images/projects/mems_microgripper/comsol_temperature.png
-  - /assets/images/projects/mems_microgripper/perforation_effect.png
-  - /assets/images/projects/mems_microgripper/time_response.png
+  - /1-D thermal model image.jpeg
+  - /1.5Thermal contour.png
+  - disp.png
+    
 ---
 
 ## Overview

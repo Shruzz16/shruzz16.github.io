@@ -16,11 +16,11 @@ main-image: /whole_model.jpeg
 images:
   - /upper part.jpeg
   - /whole_model.jpeg
-  - /proto_1.jpeg
-  - /proto_2.jpeg
+  - /proto_1.jpg
+  - /proto_2.jpg
   - /1 spectral.jpeg
   - /2 spatial.jpeg
-  - 3 temporal.jpeg
+  - /3 temporal.jpeg
 
 ---
 

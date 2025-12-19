@@ -20,7 +20,7 @@ images:
 ---
 
 ## Overview (Ongoing)
-I am currently working as a **Research Assistant in the FREE Lab (Fiber-Reinforced Elastomeric Enclosures)** on the development of **embedded high-flow pneumatic microvalves** that enable **untethered inflatable soft robots** with faster actuation and reduced control latency.
+I am currently working as a **Research Assistant in the FREE Lab (Functional Robotics for Every Environment)** on the development of **embedded high-flow pneumatic microvalves** that enable **untethered inflatable soft robots** with faster actuation and reduced control latency.
 
 ---
 

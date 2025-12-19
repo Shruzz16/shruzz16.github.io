@@ -12,13 +12,13 @@ skills:
   - PCB Design (Altium)
   - Hardware Bring-up & Debug (DMM/Oscilloscope)
   - Inductor Winding & Magnetics
-main-image: /assets/images/projects/eecs418_buck/main.png
+main-image: /01.jpeg
 images:
-  - /assets/images/projects/eecs418_buck/schematic.png
-  - /assets/images/projects/eecs418_buck/pcb_layout.png
-  - /assets/images/projects/eecs418_buck/scope_vout.png
-  - /assets/images/projects/eecs418_buck/scope_il.png
-  - /assets/images/projects/eecs418_buck/efficiency_plot.png
+  - /01.jpeg
+  - /02.jpeg
+  - /03.jpeg
+  - /04.jpeg
+  - 
 ---
 
 ## Overview

@@ -12,14 +12,12 @@ skills:
   - Restraint System Tuning (Belt / Airbag / Steering Column)
   - Design of Experiments (Taguchi L21)
   - Injury Metrics & P-Joint Optimization
-main-image: /assets/images/projects/isd514_rav4/main.png
+main-image: /ISD-514.png
 images:
-  - /assets/images/projects/isd514_rav4/model_setup.png
-  - /assets/images/projects/isd514_rav4/kinematics_baseline_vs_opt.png
-  - /assets/images/projects/isd514_rav4/hic_curve.png
-  - /assets/images/projects/isd514_rav4/chest_deflection.png
-  - /assets/images/projects/isd514_rav4/femur_forces.png
-  - /assets/images/projects/isd514_rav4/pjoint_comparison.png
+  - /1.jpeg
+  - /2.jpeg
+  - /3.jpeg
+  - /4.jpeg
 ---
 
 ## Overview

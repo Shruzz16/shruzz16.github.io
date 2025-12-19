@@ -13,13 +13,12 @@ skills:
   - MATLAB (ode45, fmincon, Genetic Algorithm)
   - Handling Metrics (Camber Gain / Roll)
   - Coil Spring Design & Cost Optimization
-main-image: /assets/images/projects/suspension_opt/main.png
+main-image: /DO_PORTFOLIO.png
 images:
-  - /assets/images/projects/suspension_opt/system_flow.png
-  - /assets/images/projects/suspension_opt/quarter_car_response.png
-  - /assets/images/projects/suspension_opt/optimization_table.png
-  - /assets/images/projects/suspension_opt/sensitivity_constraints.png
-  - /assets/images/projects/suspension_opt/sensitivity_params.png
+  - /1.jpeg
+  - /2.jpeg
+  - /3.jpeg
+    
 ---
 
 ## Overview

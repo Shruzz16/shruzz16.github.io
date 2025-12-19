@@ -15,7 +15,10 @@ skills:
 
 main-image: /_projects/A/IITB-HVAC.png
 images:
-- /IITB-HVAC-2.png
-- /IITB-HVAC-3.png
+- /ART_room.png
+- /Room_view.png
+- /Velocity Contour.png
+- /Velocity contour_roon.png
+- /grid_independency.png
 ---
 

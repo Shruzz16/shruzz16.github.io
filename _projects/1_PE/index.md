@@ -18,7 +18,7 @@ images:
   - /02.jpeg
   - /03.jpeg
   - /4.jpeg
-  - 
+    
 ---
 
 ## Overview

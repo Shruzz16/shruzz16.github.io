@@ -20,7 +20,7 @@ images:
   - /grid_independency.png
 ---
 
-## Project Overview
+## Overview
 
 ### Key technical contributions
 - Developed and validated **3D steady, incompressible turbulent RANS** CFD models to characterize **jet-driven mixing**, **buoyancy-driven stratification**, and **ventilation effectiveness** using HVAC post-processing (**temperature gradients, velocity fields, air residence time**).

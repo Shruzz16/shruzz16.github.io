@@ -2,7 +2,6 @@
 layout: post
 title: >-
   Internship 2025 | 2-Cylinder VIVACE Converter | OpenFOAM URANS (S-A) CFD + ANSYS Transient Structural Fatigue | Vortex Hydro Energy, Michigan, USA
-  
 description: >-
   Simulated flow-induced oscillations of a 2-cylinder VIVACE converter using OpenFOAM (URANS + Spalart–Allmaras) with
   force/time-history post-processing (lift/drag, displacement) and transferred hydrodynamic loads into ANSYS Transient
@@ -23,6 +22,12 @@ images:
 ---
 
 ## Overview
+
+### Animation (OpenFOAM wake visualization)
+<video controls autoplay loop muted playsinline style="max-width:100%; height:auto; border-radius:12px;">
+  <source src="{{ '/assets/videos/internships/ABCD/animation.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### Key technical contributions
 - Executed **URANS CFD simulations in OpenFOAM** to resolve unsteady separation, wake dynamics, and vortex shedding relevant to **flow-induced oscillations (FIO)** of a **2-cylinder VIVACE** configuration.
@@ -77,4 +82,3 @@ images:
 ### Stress + fatigue assessment
 - Evaluated **Von-Mises stress** to identify stress concentration zones and peak dynamic stress intervals.
 - Performed **stress-life (S–N) fatigue** using a **zero-based loading** interpretation to estimate durability under repeated oscillatory cycles driven by FIO forcing.
-

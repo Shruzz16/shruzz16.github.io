@@ -23,11 +23,18 @@ images:
 
 ## Overview
 
-### Animation (OpenFOAM wake visualization)
+### Animation 1 — OpenFOAM wake visualization (baseline)
 <video controls autoplay loop muted playsinline style="max-width:100%; height:auto; border-radius:12px;">
-  <source src="{{ '/assets/videos/internships/ABCD/animation.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/videos/internships/ABCD/vortex_shedding.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+### Animation 2 — OpenFOAM wake visualization (k=600 case)
+<video controls autoplay loop muted playsinline style="max-width:100%; height:auto; border-radius:12px;">
+  <source src="{{ '/assets/videos/internships/ABCD/k%20600%20,%20v%200.2.mp4' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ### Key technical contributions
 - Executed **URANS CFD simulations in OpenFOAM** to resolve unsteady separation, wake dynamics, and vortex shedding relevant to **flow-induced oscillations (FIO)** of a **2-cylinder VIVACE** configuration.

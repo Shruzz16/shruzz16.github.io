@@ -22,25 +22,25 @@ images:
 ---
 
 ## Overview
-Built a **DC–DC buck-based “voltage stabilizer module” style LED current driver** motivated by vehicle stop/start warm-crank voltage dip behavior. Target specs included **24–32 V input**, **1 A regulated LED current**, **fsw ≥ 200 kHz**, and ripple-driven design constraints on inductor/output filtering. :contentReference[oaicite:0]{index=0}
+Built a **DC–DC buck-based “voltage stabilizer module” style LED current driver** motivated by vehicle stop/start warm-crank voltage dip behavior. Target specs included **24–32 V input**, **1 A regulated LED current**, **fsw ≥ 200 kHz**, and ripple-driven design constraints on inductor/output filtering.
 
 ---
 
 ## System architecture (hardware implementation)
-- Implemented an **average-current regulation loop**: **0.1 Ω current-sense resistor** → **LM358 error amplifier (non-inverting)** → **PWM comparator with hysteresis** → **high-side gate driver** controlling the buck switch. :contentReference[oaicite:1]{index=1}
-- Power stage integration: **switch + diode + inductor + output capacitor** feeding a high-power LED load; designed to operate in **CCM** under nominal operating conditions. :contentReference[oaicite:2]{index=2}
+- Implemented an **average-current regulation loop**: **0.1 Ω current-sense resistor → LM358 error amplifier (non-inverting) → PWM comparator with hysteresis → high-side gate driver** controlling the buck switch.
+- Power stage integration: **switch + diode + inductor + output capacitor** feeding a high-power LED load; designed to operate in **CCM** under nominal operating conditions.
 
 ---
 
 ## Power stage sizing + component realization
-- Selected **L and C** to control ripple and enforce stable current regulation (inductor ripple and output ripple verified against switching-frequency operation). :contentReference[oaicite:3]{index=3}
-- Built/validated magnetics as a practical deliverable (inductor winding + integration into the PCB test workflow). :contentReference[oaicite:4]{index=4}
+- Selected **L and C** to control ripple and enforce stable current regulation (inductor ripple and output ripple verified against switching-frequency operation).
+- Built/validated magnetics as a practical deliverable (inductor winding + integration into the PCB test workflow).
 
 ---
 
 ## PCB build, soldering, and bring-up workflow
-- Produced schematic + PCB layout in **Altium**, including **conservative power trace sizing**, **grounding strategy**, and **dedicated test pads** to enable repeatable measurements and debugging. :contentReference[oaicite:5]{index=5}
-- Assembled the board via **through-hole soldering**, plus iterative rework/repair practices typical for power electronics prototypes (component swaps, re-soldering, shorts/continuity checks). :contentReference[oaicite:6]{index=6}
+- Produced schematic + PCB layout in **Altium**, including **conservative power trace sizing**, **grounding strategy**, and **dedicated test pads** to enable repeatable measurements and debugging.
+- Assembled the board via **through-hole soldering**, plus iterative rework/repair practices typical for power electronics prototypes (component swaps, re-soldering, shorts/continuity checks).
 
 ---
 
@@ -52,8 +52,9 @@ Used standard lab instrumentation to validate function at the block and system l
   - **Vout ripple** (at representative input voltages),
   - **Inductor current waveform** (ripple shape / CCM behavior),
   - **LED current waveform** and transient behavior,
-  - Step/perturbation observations for practical stability confirmation. :contentReference[oaicite:7]{index=7} :contentReference[oaicite:8]{index=8}
+  - Step/perturbation observations for practical stability confirmation.
 
 ---
 
-
+## Results (what to show on the page)
+- Include **schematic**, **PCB layout**, and **measured scope captures** (Vout ripple / IL / ILED), plus an efficiency trend plot.

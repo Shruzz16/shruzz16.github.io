@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >-
-Design & Analysis of a MEMS Electro-Thermal Micro-Actuator (Microgripper) | University of Michigan
+  Design & Analysis of a MEMS Electro-Thermal Micro-Actuator (Microgripper) | University of Michigan
 description: >-
   Designed and analyzed a polysilicon electro-thermal microgripper based on a U-shaped hot/cold arm architecture. Built a
   defensible electro-thermal-mechanical workflow combining closed-form scaling laws (displacement, temperature, resistance,
@@ -21,9 +21,7 @@ images:
   - /disp.png
   - /new_model_disp.jpeg
   - /tip_disp_2.jpeg
-    
 ---
-
 
 Designed and analyzed a **MEMS electro-thermal microactuator / microgripper** that generates **in-plane jaw motion** via
 **differential Joule heating** in asymmetric polysilicon beams: a narrow **hot arm** (high resistance/current density) and a wider
@@ -52,6 +50,7 @@ fully coupled multiphysics FEM.
 ---
 
 ## Reduced-order analytical modeling (electro-thermal-mechanical)
+
 ### Tip displacement scaling (voltage-driven)
 - Derived a compact displacement relationship from:
   - hot-arm thermal elongation: ΔL ∝ α L ΔT
@@ -90,6 +89,7 @@ fully coupled multiphysics FEM.
 ---
 
 ## Performance metrics derived from mechanics
+
 ### Gripping force estimate (flexure stiffness method)
 - Modeled the compliant jaw/flexure using Euler–Bernoulli beam theory and inverted the deflection relation to map jaw displacement to gripping force:
   - F related to EI, geometry (L, a), and measured displacement d
@@ -103,6 +103,7 @@ fully coupled multiphysics FEM.
 ---
 
 ## Design modifications and sensitivity studies
+
 ### Cold-arm width increase
 - Evaluated widened cold-arm configuration to tune stiffness/thermal balance while preserving actuation efficiency and stability.
 
@@ -125,8 +126,6 @@ fully coupled multiphysics FEM.
 
 ## Outcome
 Delivered a complete, repeatable MEMS actuator workflow:
-1) derive reduced-order models for **displacement + temperature + resistance**,  
-2) validate/extend via **fully coupled COMSOL**,  
-3) tune performance with geometry edits (**cold-arm width, perforations, modified layout**) while monitoring **thermal limits, displacement, force, and dynamics**.
----
-
+1) derive reduced-order models for **displacement + temperature + resistance**  
+2) validate/extend via **fully coupled COMSOL**  
+3) tune performance with geometry edits (**cold-arm width, perforations, modified layout**) while monitoring **thermal limits, displacement, force, and dynamics**

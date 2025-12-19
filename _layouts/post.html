@@ -30,7 +30,8 @@ layout: wrapper
       <div class="portfolio-grid">
         {% for image in page.images %}
           {% assign image_path = "/" | append: folder_path | append: image %}
-          <a href="{{ image_path }}" target="_blank" rel="noopener">
+        <a href="{{ image_path }}" data-gallery="project" aria-label="Open image {{ forloop.index }}">
+
             <img src="{{ image_path }}" alt="{{ page.title }} image {{ forloop.index }}">
           </a>
         {% endfor %}

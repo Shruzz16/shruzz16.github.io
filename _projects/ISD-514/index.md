@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >-
-  ISD 514 | Driver Safety Optimization for an Obese Female Occupant in Toyota RAV4 | GHBMC + LS-DYNA DOE (Taguchi L21)
+  Driver Safety Optimization for an Obese Female Occupant in Toyota RAV4 | GHBMC + LS-DYNA DOE (Taguchi L21) | University of Michigan
 description: >-
   Optimized restraint-system and vehicle interior safety parameters for a demographically vulnerable obese female driver
   (GHBMC, frontal crash) using LS-DYNA simulations and a Taguchi L21 DOE. Debugged baseline solver instability, computed

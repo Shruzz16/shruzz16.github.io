@@ -13,14 +13,13 @@ skills:
   - Experimental Modal Testing (DAQ, Excitation, Multi-sensor FRFs)
   - CAD Co-Design (AutoCAD / SOLIDWORKS) + PCB (Altium)
   - Capacitance / Field Extraction (Terminal, Capacitance Matrix)
-main-image: /assets/images/research/mems_mirror/main.png
+main-image: /EigenF.jpeg
 images:
-  - /assets/images/research/mems_mirror/comsol_modes.png
-  - /assets/images/research/mems_mirror/daq_modal_setup.png
-  - /assets/images/research/mems_mirror/frf_peaks.png
-  - /assets/images/research/mems_mirror/comb_fingers_2d.png
-  - /assets/images/research/mems_mirror/electric_field.png
-  - /assets/images/research/mems_mirror/capacitance_sweep.png
+  - /EigenF.jpeg
+  - /1.png
+  - /2.png
+  - /3.png
+  - Ctrend.jpeg
 ---
 
 ## Overview (Ongoing)

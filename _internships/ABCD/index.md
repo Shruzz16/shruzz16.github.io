@@ -22,13 +22,13 @@ images:
 
 ## Overview
 
-### Animation 1 — OpenFOAM wake visualization (baseline)
+### Animation 1 — OpenFOAM wake visualization
 <video controls autoplay loop muted playsinline style="max-width:100%; height:auto; border-radius:12px;">
   <source src="{{ '/assets/videos/internships/ABCD/animation.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-### Animation 2 — OpenFOAM wake visualization (k=600 case)
+### Animation 2 — Ansys Transient Simulation visualization
 <video controls autoplay loop muted playsinline style="max-width:100%; height:auto; border-radius:12px;">
   <source src="{{ '/assets/videos/internships/ABCD/k%20600%20,%20v%200.2.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.

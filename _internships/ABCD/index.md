@@ -12,7 +12,7 @@ skills:
   - Hydrodynamic Load Extraction (Lift/Drag)
   - ANSYS Transient Structural (Newmark) & Fatigue (Stress-Life)
   - CAD/FEA Workflow Integration
-main-image: /VIVACE_model.png
+main-image: /actual model.png
 images:
   - /actual model.jpeg
   - /simplified model.jpeg

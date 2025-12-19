@@ -15,9 +15,12 @@ skills:
   - Design Iteration & Validation
 main-image: /assets/images/projects/mems_microgripper/main.png
 images:
+  - /Fab_steps.jpeg
   - /1-D thermal model image.jpeg
   - /1.5Thermal contour.png
   - disp.png
+  - new_model_disp.jpeg
+  - tip_disp_2.jpeg
     
 ---
 

@@ -13,7 +13,7 @@ skills:
 - Turbulence Modeling & Validation  
 - Energy Efficiency Optimization  
 
-main-image: /_projects/A/IITB-HVAC.png
+main-image: /Velocity contour_roon.png
 images:
 - /ART_room.png
 - /Room_view.png

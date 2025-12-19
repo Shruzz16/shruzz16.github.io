@@ -55,6 +55,3 @@ Used standard lab instrumentation to validate function at the block and system l
   - Step/perturbation observations for practical stability confirmation.
 
 ---
-
-## Results (what to show on the page)
-- Include **schematic**, **PCB layout**, and **measured scope captures** (Vout ripple / IL / ILED), plus an efficiency trend plot.

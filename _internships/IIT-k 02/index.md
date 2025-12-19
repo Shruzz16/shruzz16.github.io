@@ -12,12 +12,16 @@ skills:
   - Thermal Management
   - Irradiance Uniformity & Stability
   - SolidWorks CAD
-main-image: /assets/images/internships/iitk/solar_simulator/main.png
+main-image: /whole_model.jpeg
 images:
-  - /assets/images/internships/iitk/solar_simulator/cad_model.png
-  - /assets/images/internships/iitk/solar_simulator/spectrum_comparison.png
-  - /assets/images/internships/iitk/solar_simulator/temporal_instability.png
-  - /assets/images/internships/iitk/solar_simulator/spatial_uniformity.png
+  - /upper part.jpeg
+  - /whole_model.jpeg
+  - /proto_1.jpeg
+  - /proto_2.jpeg
+  - /1 spectral.jpeg
+  - /2 spatial.jpeg
+  - 3 temporal.jpeg
+
 ---
 
 ## Overview
@@ -57,6 +61,6 @@ images:
   - **Temporal instability assessment** emphasizing LED substrate temperature dependence and thermal-management impact.
   - **Spatial non-uniformity mapping** on the test plane and iteration on source placement/beam conditioning to flatten irradiance gradients.
 
-### Outcomes and future enhancements
+### Outcomes
 - Delivered a **functioning prototype** demonstrating feasibility of a compact, low-cost hybrid architecture with improved controllability.
-- Proposed next-step upgrade: **DC motor actuation (vertical axis)** to vary intensity with time-of-day profiles for more realistic diurnal solar simulation.
+  

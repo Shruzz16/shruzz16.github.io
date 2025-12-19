@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >-
-  EECS 418 Final Project 2025 | Current-Mode Buck LED Driver (Stop/Start Voltage Stabilizer Concept) | University of Michigan
+  Current-Mode Buck LED Driver (Stop/Start Voltage Stabilizer Concept) | University of Michigan
 description: >-
   Designed, built, and tested a 200 kHz+ current-mode buck LED driver (24–32 V input, 1 A constant-current output) with a
   comparator-based PWM stage, current-sense feedback, and PCB implementation. Verified operation using bench instrumentation

@@ -19,14 +19,14 @@ resume-url: https://drive.google.com/file/d/1SNLkfnhuNJ9i3RUkOblgjhJt70DEUBsm/vi
 external-links:
   linkedin: https://www.linkedin.com/in/shrujalzala16/
   github: shruzz16
-  stackoverflow: 
-  medium: 
-  x-twitter: 
-  threads: 
-  instragram: 
-  youtube: 
-  discord: 
-  bluesky: 
+  stackoverflow:
+  medium:
+  x-twitter:
+  threads:
+  instragram:
+  youtube:
+  discord:
+  bluesky:
 
 # Skills
 skills:
@@ -42,7 +42,6 @@ skills:
       - HyperWorks
       - Stress Analysis
       - Thermal Analysis
-      
 
   - category: Prototyping
     tools:
@@ -117,6 +116,9 @@ collections:
   internships:
     output: true
     permalink: /internships/:path/
+  research:
+    output: true
+    permalink: /research/:path/
 
 markdown: kramdown
 highlighter: rouge
@@ -137,6 +139,7 @@ plugins:
 include:
   - _projects
   - _internships
+  - _research
 
 # Exclude from processing (optional)
 # exclude:
@@ -146,3 +149,4 @@ include:
 #   - Gemfile.lock
 #   - node_modules/
 #   - vendor/
+

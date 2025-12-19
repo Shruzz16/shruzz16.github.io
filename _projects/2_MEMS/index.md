@@ -18,9 +18,9 @@ images:
   - /Fab_steps.jpeg
   - /1-D thermal model image.jpeg
   - /1.5Thermal contour.png
-  - disp.png
-  - new_model_disp.jpeg
-  - tip_disp_2.jpeg
+  - /disp.png
+  - /new_model_disp.jpeg
+  - /tip_disp_2.jpeg
     
 ---
 

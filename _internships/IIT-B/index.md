@@ -18,6 +18,8 @@ images:
   - /Velocity Contour.png
   - /Velocity contour_roon.png
   - /grid_independency.png
+  - /ac.png
+  - /ac_room.png
 ---
 
 ## Overview

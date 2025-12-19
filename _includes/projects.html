@@ -51,6 +51,57 @@
     {% endfor %}
   </div>
 </section>
+<!-- SECTION: Research Experience -->
+<section id="research" class="project-grid-section">
+  <h2>Research Experience</h2>
+
+  <div class="grid-container">
+    {% for item in site.research %}
+      <a href="{{ item.url }}" class="project-link">
+        <div class="project-card">
+          {% assign folder_path = item.path | split: "/" | slice: 0, 2 | join: "/" %}
+
+          {% if item.images and item.images.size > 1 %}
+            <div id="researchCarousel-{{ forloop.index }}" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                {% for image in item.images %}
+                  {% assign image_path = "/" | append: folder_path | append: image %}
+                  <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                    <img src="{{ image_path }}" class="d-block w-100" alt="{{ item.title }} image {{ forloop.index }}">
+                  </div>
+                {% endfor %}
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#researchCarousel-{{ forloop.index }}" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+
+              <button class="carousel-control-next" type="button" data-bs-target="#researchCarousel-{{ forloop.index }}" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          {% else %}
+            {% assign image_path = "/" | append: folder_path | append: item['main-image'] %}
+            <img src="{{ image_path }}" alt="{{ item.title }} image" class="d-block w-100">
+          {% endif %}
+
+          <h3 class="project-title">{{ item.title }}</h3>
+
+          <div class="project-skills">
+            {% for skill in item.skills %}
+              <span class="skill">{{ skill }}</span>
+            {% endfor %}
+          </div>
+
+          <p class="project-description">{{ item.description }}</p>
+          <button class="read-more">Read more →</button>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
 
 
 <!-- SECTION: Projects -->

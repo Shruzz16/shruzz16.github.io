@@ -19,7 +19,7 @@ images:
   - /proto_1.jpg
   - /proto_2.jpg
   - /1 spectral.jpeg
-  - /2 spatial.jpeg
+  - /2 spatial .jpeg
   - /3 temporal.jpeg
 
 ---

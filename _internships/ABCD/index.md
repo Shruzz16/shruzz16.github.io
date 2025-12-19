@@ -12,13 +12,12 @@ skills:
   - Hydrodynamic Load Extraction (Lift/Drag)
   - ANSYS Transient Structural (Newmark) & Fatigue (Stress-Life)
   - CAD/FEA Workflow Integration
-main-image: /assets/images/internships/iitk_vivace_2cyl/main.png
+main-image: /VIVACE_model.png
 images:
-  - /assets/images/internships/iitk_vivace_2cyl/domain_mesh.png
-  - /assets/images/internships/iitk_vivace_2cyl/lift_drag.png
-  - /assets/images/internships/iitk_vivace_2cyl/displacement.png
-  - /assets/images/internships/iitk_vivace_2cyl/vonmises.png
-  - /assets/images/internships/iitk_vivace_2cyl/fatigue_life.png
+  - /actual model.jpeg
+  - simplified model.jpeg
+  - fatigue.jpeg
+  - stress.jpeg
 ---
 
 ## Overview

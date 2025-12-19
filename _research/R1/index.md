@@ -16,7 +16,6 @@ skills:
 main-image: /1.jpeg
 images:
   - /1.jpeg
-  - /2.jpeg
 ---
 
 ## Overview (Ongoing)

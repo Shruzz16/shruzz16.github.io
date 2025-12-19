@@ -1,21 +1,25 @@
 ---
 layout: post
-title: "Internship 2024 | CFD Analysis of Thermal Stratification and HVAC Systems | Indian Institute of Technology, Bombay"
-description: "CFD internship: validated buoyant indoor jet ventilation and HVAC air-distribution models in ANSYS Fluent/SpaceClaim; quantified stratification, mixing, and air residence time with mesh-independence verification."
+title: >-
+  Internship 2024 | CFD Analysis of Thermal Stratification and HVAC Systems | Indian Institute of Technology, Bombay
+description: >-
+  CFD internship: validated buoyant indoor jet ventilation and HVAC air-distribution models in ANSYS Fluent/SpaceClaim;
+  quantified stratification, mixing, and air residence time with mesh-independence verification.
 skills:
-  - "CFD & Thermal Systems Analysis"
-  - "HVAC System Design & Simulation"
-  - "ANSYS Fluent & SpaceClaim"
-  - "Turbulence Modeling & Validation"
-  - "Energy Efficiency Optimization"
-main-image: "/Velocity contour_roon.png"
+  - CFD & Thermal Systems Analysis
+  - HVAC System Design & Simulation
+  - ANSYS Fluent & SpaceClaim
+  - Turbulence Modeling & Validation
+  - Energy Efficiency Optimization
+main-image: /Velocity contour_roon.png
 images:
-  - "/ART_room.png"
-  - "/Room_view.png"
-  - "/Velocity Contour.png"
-  - "/Velocity contour_roon.png"
-  - "/grid_independency.png"
+  - /ART_room.png
+  - /Room_view.png
+  - /Velocity Contour.png
+  - /Velocity contour_roon.png
+  - /grid_independency.png
 ---
+
 ## Project Overview
 
 ### Key technical contributions

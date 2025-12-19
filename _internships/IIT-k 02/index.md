@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >-
-  Internship 2023 | Design & Development of an LED–Halogen Hybrid Solar Simulator (SURGE) | IIT Kanpur
+  Internship 2023 | Design & Development of an LED–Halogen Hybrid Solar Simulator (SURGE) | Indian Institue of Technology, Kanpur
 description: >-
   Designed and prototyped a compact LED–halogen hybrid solar simulator for long-duration indoor testing of solar-energy devices,
   aligned to terrestrial solar-simulator evaluation metrics (spectral match, spatial non-uniformity, temporal instability) using AM1.5

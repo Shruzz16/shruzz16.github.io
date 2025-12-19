@@ -24,7 +24,7 @@ images:
 
 ### Animation 1 — OpenFOAM wake visualization (baseline)
 <video controls autoplay loop muted playsinline style="max-width:100%; height:auto; border-radius:12px;">
-  <source src="{{ '/assets/videos/internships/ABCD/vortex_shedding.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/videos/internships/ABCD/animation.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

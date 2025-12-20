@@ -11,11 +11,12 @@ skills:
   - "Stamping DFM (Draft, Radii, Beads, Spot-weld Access)"
   - "Buckling Mitigation (Plate Effectiveness, Bead Strategy)"
   - "Body Requirement Estimation (IC vs BEV Bending/Torsion)"
-main-image: "/assets/images/projects/biw_case_studies/main.png"
+main-image: /3.jpeg
 images:
-  - "/assets/images/projects/biw_case_studies/cs1_section.png"
-  - "/assets/images/projects/biw_case_studies/cs2_mass_map.png"
-  - "/assets/images/projects/biw_case_studies/cs3_teardown.png"
+  - /1.jpeg
+  - /2.jpeg
+  - /3.jpeg
+  - /4.jpeg
 ---
 
 ## Overview

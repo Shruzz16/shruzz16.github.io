@@ -13,7 +13,7 @@ description: >-
 profile_image: ./assets/images/profile-image/shrujalgit.jpeg
 
 # Resume
-resume-url: https://drive.google.com/file/d/1SNLkfnhuNJ9i3RUkOblgjhJt70DEUBsm/view?usp=sharing
+resume-url: https://drive.google.com/file/d/1xlAB2RUwHFAwhq6782CmSIO8zuLHkQKL/view?usp=sharing
 
 # External Links
 external-links:
@@ -30,38 +30,38 @@ external-links:
 
 # Skills
 skills:
-  - category: Modeling & Simulation
+  - category: CAD & Mechanical Design
     tools:
-      - AutoCAD
       - SolidWorks
-      - Fusion 360 (Autodesk)
-      - ANSYS SpaceClaim
-      - ANSYS Transient Mechanical
+      - AutoCAD
+      - Fusion 360
+
+  - category: Simulation (FEA / CFD / Multiphysics)
+    tools:
+      - ANSYS Mechanical (Transient Structural)
       - ANSYS Fluent
+      - ANSYS SpaceClaim
       - LS-DYNA
-      - HyperWorks
-      - Stress Analysis
+      - Altair HyperWorks
+      - Structural (Stress) Analysis
       - Thermal Analysis
 
-  - category: Prototyping
+  - category: Prototyping & Manufacturing
     tools:
-      - SLA
-      - CNC
-      - FDM
-      - SLS
+      - 3D Printing (FDM / SLA / SLS)
+      - CNC Machining
       - Laser Cutting
 
-  - category: PCB Design
+  - category: PCB & Power Electronics Tools
     tools:
       - Altium Designer
-      - Altium
       - PLECS
 
-  - category: Problem Solving / Risk Management
+  - category: Engineering Methods
     tools:
-      - Root Cause Analysis (5 Whys, Fishbone Diagram)
+      - Root Cause Analysis (5 Whys, Fishbone)
       - DFMEA / PFMEA
-      - Six Sigma methodologies
+      - Six Sigma Basics
 
 # Contact Form (Formspree)
 formspree-key: https://formspree.io/f/{8-digit key}

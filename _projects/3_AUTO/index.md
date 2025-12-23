@@ -56,7 +56,7 @@ A set of three **BIW + closures-relevant** case studies from **Fundamentals of A
 
 ---
 
-## Skills Used (Resume-friendly)
+## Skills Used
 - BIW / Closures load-path reasoning (rings, bridges, grounded load paths)
 - Thin-walled section efficiency (closed sections, tall webs, buckling-aware design)
 - Stamping DFM constraints (draft, radii, beads, weld access)

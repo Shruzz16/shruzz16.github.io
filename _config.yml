@@ -11,6 +11,14 @@ headline: Mechanical Core and Capacitance
 description: >-
  M.S. Mechanical Engineering student with hands-on experience in structural and multiphysics simulation (FEA/CFD/COMSOL), CAD-driven design, and optimization. I focus on designing robust mechanical systems—from BIW/closures-oriented structures and product mechanisms to MEMS devices—taking concepts from simulation to prototype and test. Strong at connecting design intent, manufacturability, and performance to deliver high-quality, buildable solutions.
 profile_image: ./assets/images/profile-image/shrujalgit.jpeg
+# Education (Homepage)
+education:
+  - school: University of Michigan, Ann Arbor
+    degree: M.S. Mechanical Engineering
+    Graduated in: Ongoing (May 2026)
+  - school: Saradar Vallabhbhai Natioanl Institute of Technology, Surat
+    degree: B.E./B.Tech Mechanical Engineering
+    Graduted in: 2024
 
 # Resume
 resume-url: https://drive.google.com/file/d/1xlAB2RUwHFAwhq6782CmSIO8zuLHkQKL/view?usp=sharing

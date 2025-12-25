@@ -15,10 +15,10 @@ profile_image: ./assets/images/profile-image/shrujalgit.jpeg
 education:
   - school: University of Michigan, Ann Arbor
     degree: M.S. Mechanical Engineering
-    Graduated in: Ongoing (May 2026)
+    date: Ongoing (May 2026)
   - school: Saradar Vallabhbhai Natioanl Institute of Technology, Surat
     degree: B.E./B.Tech Mechanical Engineering
-    Graduted in: 2024
+    date: 2024
 
 # Resume
 resume-url: https://drive.google.com/file/d/1xlAB2RUwHFAwhq6782CmSIO8zuLHkQKL/view?usp=sharing

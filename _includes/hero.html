@@ -83,6 +83,26 @@
   </ul>
 </div>
 {% endif %}
+{% if site.certifications %}
+<div class="certifications" style="margin-top: 12px;">
+  <h3 style="margin: 0 0 6px 0;">Certifications</h3>
+  <ul style="margin: 0; padding-left: 18px;">
+    {% for cert in site.certifications %}
+      <li>
+        {% if cert.link %}
+          <a href="{{ cert.link }}" target="_blank" rel="noopener">
+            {{ cert.name }}
+          </a>
+        {% else %}
+          {{ cert.name }}
+        {% endif %}
+        {% if cert.org %} , {{ cert.org }}{% endif %}
+        {% if cert.year %} ({{ cert.year }}){% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
 
             <div class="links">
                 <a href="#projects">

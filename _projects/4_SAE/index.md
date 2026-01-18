@@ -100,6 +100,3 @@ without sacrificing strength.
 - Knuckle: Al 6061
 
 ---
-
-## Report
-Design report PDF: [EA05_CGMR_SnS_Design_Report_FBEV_2023.pdf](/assets/projects/SAE_FBEV_2023/EA05_CGMR_SnS_Design_Report_FBEV_2023.pdf)

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "TEAM PHOENIX RACING (FBEV 2023) | Suspension & Steering 
+title: "TEAM PHOENIX RACING (FBEV 2023)" | Suspension & Steering 
 thumbnail: /assets/projects/SAE_FBEV_2023/thumb.png
 ---
 

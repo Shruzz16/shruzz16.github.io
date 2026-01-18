@@ -1,77 +1,105 @@
 ---
-layout: project
-title: "TEAM PHOENIX RACING (FBEV 2023) | Suspension & Steering"
-thumbnail: /assets/projects/SAE_FBEV_2023/thumb.png
+layout: post
+title: TEAM PHOENIX RACING (FBEV 2023) | Suspension & Steering System Design
+description: >-
+  Suspension, steering, and wheel-end design for a Formula Student EV using a kinematics-first workflow (bump/roll/steer),
+  followed by force-based sizing and ANSYS verification. Includes steering geometry for turning-radius targets, bump-steer
+  reduction via tie-rod/A-arm alignment, and manufacturable hardware concepts for wishbones, tie rods, rocker, upright,
+  hub/spindle, and bearing strategy.
+skills:
+  - "Suspension Kinematics (Bump/Roll/Steer, Camber/Toe Behavior)"
+  - "Steering Geometry (Ackermann, Turning Radius, Rack Travel, SAL)"
+  - "SolidWorks (2D Steering + 3D Integration)"
+  - "Lotus Shark (Hardpoint Iteration + Kinematic Plots)"
+  - "Optimum Kinematics (Cross-Verification + Combined Conditions)"
+  - "MATLAB (Force/Moment Sizing, Buckling Checks)"
+  - "ANSYS (Stress/FOS Validation, Topology Optimization)"
+  - "DFM for Student Racecar Hardware (Tube Links, Rod Ends, CNC/VMC Parts)"
+main-image: /assets/projects/SAE_FBEV_2023/thumb.png
+images:
+  - /assets/projects/SAE_FBEV_2023/img1.png
+  - /assets/projects/SAE_FBEV_2023/img2.png
+  - /assets/projects/SAE_FBEV_2023/img3.png
+  - /assets/projects/SAE_FBEV_2023/img4.png
+  - /assets/projects/SAE_FBEV_2023/img5.png
 ---
 
-## Project Overview
-Designed and optimized the suspension, steering, and wheel assembly for a Formula Student–type EV. The work followed a kinematics-first workflow (bump, roll, steer, and combined conditions) and translated into manufacturable hardware validated through force calculations and ANSYS simulation, including topology optimization for weight reduction.
+## Overview
+Designed and packaged the **front suspension + steering + wheel-end** for **Team Phoenix Racing (FBEV 2023)**. The workflow started with
+**tire selection and kinematic targets**, then iterated hardpoints to stabilize **camber/toe behavior** across **bump and roll**, followed by
+a steering layout that met turning-radius requirements and minimized **bump steer**. Final concepts were translated into **manufacturable
+hardware** and verified using **force-based sizing** and **ANSYS simulation**, including **topology optimization** where weight could be removed
+without sacrificing strength.
 
-## Skills Used
-• Lotus Shark (suspension kinematics)  
-• Optimum Kinematics (verification checks)  
-• SolidWorks (2D steering + full 3D integration)  
-• MATLAB (force and moment calculations, sizing)  
-• ANSYS (stress/FOS checks, topology optimization)  
-• DFM mindset (tube-based links, CNC/VMC machinability)  
-• Material selection and justification for steering, suspension, uprights
+---
 
-## Design Report
-• PDF: [EA05_CGMR_SnS_Design_Report_FBEV_2023.pdf](/assets/projects/SAE_FBEV_2023/EA05_CGMR_SnS_Design_Report_FBEV_2023.pdf)
+## What I completed
 
-## What I worked on
-Built an end-to-end pipeline from performance targets and geometry assumptions → kinematic iteration → steering development to meet turning-radius needs → full 3D integration → force-based sizing → FEA validation + topology optimization → final upright + hub/spindle + bearing packaging.
+### 1) System targets and constraints
+- Set handling-driven targets focused on **stable camber/toe trends** across bump and roll and maintaining a **consistent contact patch**.
+- Prioritized **predictable steering feel** and avoided geometry choices that bias the car toward **understeer**.
+- Built in **adjustability** (static angles and alignment) through upright/link architecture and rod-end based links.
+- Packaged the system around realistic manufacturing and service constraints for a student-built EV.
 
-## Key Work Completed
-
-### 1) Objectives and design targets
-• Better driving stability across bump, roll, steer, and combined conditions  
-• Maintain maximum contact patch and predictable camber/toe behavior  
-• Higher cornering performance and reduced understeer tendencies  
-• Allow static angle adjustability through upright and link design  
-• Driver-focused constraints like ergonomics, weight, and safety
+---
 
 ### 2) Tire selection and rationale
-• Selected 13-inch tires for higher cornering stiffness and better packaging space  
-• Final tire selection: Hoosier 20.5 × 7.0–R13 (A2500 / R25B, Bias/Cross Ply)
+- Selected **13-inch tires** for better **cornering stiffness** compared to 10-inch options and improved space for packaging brakes and suspension.
+- Final tire selection: **Hoosier 20.5 × 7.0–R13 (A2500 / R25B, Bias/Cross Ply)**.
 
-### 3) Suspension kinematics workflow
-• Iterated hardpoints in Lotus Shark to stabilize kinematic curves  
-• Evaluated toe/camber response in bump and roll, refined until behavior was acceptable  
-• Cross-checked and validated geometry in Optimum Kinematics
+---
 
-### 4) Steering design and packaging
-• Designed for target turning radius of 2700 mm with wheelbase assumption of 1550 mm  
-• Built 2D steering geometry in SolidWorks, then integrated into full 3D steering + suspension model  
-• Reduced bump steer by aligning tie-rod axis with the intersection of extended A-arm lines  
-• Tuned rack placement, rack travel, steering arm length, and packaging constraints
+### 3) Suspension kinematics workflow (Lotus Shark + verification)
+- Iterated suspension hardpoints in **Lotus Shark** to stabilize kinematic behavior and avoid undesirable camber/toe trends.
+- Evaluated suspension response in **bump** and **roll**, then refined geometry until trends were acceptable.
+- Cross-checked geometry and plots using **Optimum Kinematics**, including cases that capture combined effects more clearly.
 
-### 5) Hardware design + verification (MATLAB + ANSYS)
-Wishbones  
-• Tube-based wishbones sized using MATLAB force outputs  
-• Threaded tube ends with rod-end bearings for adjustability  
-• ANSYS checks under combined loading envelopes
+---
 
-Tie rods  
-• Tube + rod-end bearing assemblies sized from geometry and loading  
-• ANSYS validation for stress/FOS
+### 4) Steering geometry and packaging (2D → 3D integration)
+- Designed steering around a target **turning radius of 2700 mm** with a feasible **wheelbase assumption of 1550 mm**.
+- Built a **2D steering layout in SolidWorks** to define feasible steering arm geometry and rack travel needs.
+- Converted the steering system into full **3D integration** with suspension geometry for packaging and interference realism.
+- Reduced bump steer by aligning the tie-rod axis to meet the intersection of extended **upper and lower A-arm lines**.
+- Tuned rack placement, steering arm length, and rack travel to balance steering response and packaging constraints.
+- Integrated steering column and universal joints terminating at the rack while maintaining driver-oriented packaging.
 
-Rocker  
-• VMC-machinable geometry with bearing provisions  
-• ANSYS stress/FOS checks + topology optimization
+---
 
-Upright / knuckle + wheel assembly  
-• Upright designed to preserve static angles and ensure brake and link packaging  
-• Hub/spindle + bearing strategy designed for combined radial/axial loads  
-• ANSYS checks for shear, compression, and bending + topology optimization
+## Hardware design and verification
 
-## Material selection (highlights)
-• Rack: EN24  
-• Pinion: 20MnCr5  
-• Rack casing: Al 6061-T6  
-• Steering column + U-joints: AISI 1040  
-• A-arms: AISI 4340 (normalized)  
-• Pushrod: AISI 4130 (normalized)  
-• Hub/spindle: EN24  
-• Knuckle: Al 6061
+### Wishbones
+- Tube-based wishbones designed around **vendor-available tube sizes** for practical sourcing and manufacturing.
+- Used **MATLAB force and moment outputs** to size members conservatively and avoid buckling/overstress.
+- Used threaded tube ends + rod-end bearings for alignment adjustability and repeatable assembly.
+- Verified critical load cases in **ANSYS**, including combined bending/tension and bracket-driven local effects.
 
+### Tie rods
+- Tube + rod-end architecture sized from geometry and loading outputs.
+- Verified stresses and safety margins in **ANSYS**.
+
+### Rocker
+- Designed for **VMC machinability** with bearing provisions and practical thickness regions.
+- Verified strength in **ANSYS** and applied **topology optimization** to reduce mass while preserving load paths.
+
+### Upright / wheel-end (hub, spindle, bearings, brake packaging)
+- Developed a compact wheel-end concept that maintains static geometry targets and supports brake and joint packaging.
+- Bearing strategy used **back-to-back taper roller bearings** to handle combined radial + axial loads and reduce play.
+- Included simulation checks for shear, compression, and bending, followed by **topology optimization** where appropriate.
+
+---
+
+## Materials (highlights)
+- Rack: EN24
+- Pinion: 20MnCr5
+- Rack & pinion casing: Al 6061-T6
+- Steering column + universal joints: AISI 1040
+- A-arms: AISI 4340 (normalized)
+- Pushrod: AISI 4130 (normalized)
+- Hub/spindle integrated: EN24
+- Knuckle: Al 6061
+
+---
+
+## Report
+Design report PDF: [EA05_CGMR_SnS_Design_Report_FBEV_2023.pdf](/assets/projects/SAE_FBEV_2023/EA05_CGMR_SnS_Design_Report_FBEV_2023.pdf)

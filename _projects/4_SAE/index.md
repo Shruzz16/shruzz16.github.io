@@ -15,13 +15,15 @@ skills:
   - "MATLAB (Force/Moment Sizing, Buckling Checks)"
   - "ANSYS (Stress/FOS Validation, Topology Optimization)"
   - "DFM for Student Racecar Hardware (Tube Links, Rod Ends, CNC/VMC Parts)"
-main-image: /assets/projects/SAE_FBEV_2023/thumb.png
+main-image: 4.jpeg
 images:
-  - /assets/projects/SAE_FBEV_2023/img1.png
-  - /assets/projects/SAE_FBEV_2023/img2.png
-  - /assets/projects/SAE_FBEV_2023/img3.png
-  - /assets/projects/SAE_FBEV_2023/img4.png
-  - /assets/projects/SAE_FBEV_2023/img5.png
+  - 1.jpeg
+  - 2.jpeg
+  - 3.jpeg
+  - 4.jpeg
+  - 5.jpeg
+  - 6.jpeg
+    
 ---
 
 ## Overview

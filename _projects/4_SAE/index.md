@@ -15,14 +15,14 @@ skills:
   - "MATLAB (Force/Moment Sizing, Buckling Checks)"
   - "ANSYS (Stress/FOS Validation, Topology Optimization)"
   - "DFM for Student Racecar Hardware (Tube Links, Rod Ends, CNC/VMC Parts)"
-main-image: 4.jpeg
+main-image: /4.jpeg
 images:
-  - 1.jpeg
-  - 2.jpeg
-  - 3.jpeg
-  - 4.jpeg
-  - 5.jpeg
-  - 6.jpeg
+  - /1.jpeg
+  - /2.jpeg
+  - /3.jpeg
+  - /4.jpeg
+  - /5.jpeg
+  - /6.jpeg
     
 ---
 

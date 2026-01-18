@@ -35,8 +35,6 @@ without sacrificing strength.
 
 ---
 
-## What I completed
-
 ### 1) System targets and constraints
 - Set handling-driven targets focused on **stable camber/toe trends** across bump and roll and maintaining a **consistent contact patch**.
 - Prioritized **predictable steering feel** and avoided geometry choices that bias the car toward **understeer**.

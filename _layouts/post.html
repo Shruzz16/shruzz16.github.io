@@ -35,10 +35,6 @@ layout: wrapper
           </a>
         {% endfor %}
       </div>
-    {% else %}
-      <!-- Static fallback image -->
-      {% assign image_path = "/" | append: folder_path | append: page['main-image'] %}
-      <img src="{{ image_path }}" alt="{{ page.title }} image" class="d-block w-100">
     {% endif %}
 
   </div>

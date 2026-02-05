@@ -15,6 +15,9 @@ skills:
   - CAE Preprocessing (HyperMesh: Mesh, Contacts, Connections)
   - Structural Simulation Support (LS-DYNA)
   - Design Iteration from CAE Feedback (Performance vs Weight vs Cost)
+main-image: /
+images:
+  - /
 ---
 
 ## Overview (Comparative Study)

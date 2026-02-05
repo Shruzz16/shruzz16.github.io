@@ -1,7 +1,7 @@
 ---
 layout: post
 title:
-Automotive Body-in-White (BIW) Structural Redesign | Baseline Stamped vs STAF Tube-Formed Architecture | CAE Validation (CATIA V5, HyperMesh, LS-DYNA)
+ Automotive Body-in-White (BIW) Structural Redesign | Baseline Stamped vs STAF Tube-Formed Architecture | CAE Validation (CATIA V5, HyperMesh, LS-DYNA)
 description: 
   I maintain a baseline BIW model with stamped sheet-metal
   members and develop a second concept where selected stamped parts are replaced with STAF tube-formed structural members.

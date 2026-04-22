@@ -114,6 +114,5 @@ This was used to connect geometry with expected output speed and torque behavior
 
 ---
 
-## Resume-style summary
-- Modeled and assembled a planetary gearbox in SolidWorks with sun, planet, and ring gears plus carrier, verifying gear meshing, alignment, fit, and compact packaging for smooth torque transmission.
-- Prepared manufacturing-oriented part detailing with **GD&T**, tolerance stack-up, and clearance checks, while performing gear ratio, center distance, torque multiplication, and load-sharing calculations to improve design reliability and assembly robustness.
+
+

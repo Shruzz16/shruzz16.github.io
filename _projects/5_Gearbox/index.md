@@ -15,10 +15,12 @@ skills:
   - Design for Manufacturing
 main-image: /assets/images/projects/planetary_gearbox/main.png
 images:
-  - /.png
-  - /.png
-  - /.png
-  - /.png
+  - /ASSEMBLY.jpeg
+  - /CARRIER.jpeg
+  - /PLANET.jpeg
+  - /RING.jpeg
+  - /SUN.jpeg
+
 ---
 
 Modeled and analyzed a **planetary gearbox assembly** in **SolidWorks** to study compact torque transmission through a

@@ -16,7 +16,7 @@ skills:
   - G-code Generation
   - Manufacturing Process Planning
   - Design for Manufacturing
-
+/assets/images/projects/planetary_gearbox/1.jpeg
 images:
   - /1.jpeg
   - /2.jpeg

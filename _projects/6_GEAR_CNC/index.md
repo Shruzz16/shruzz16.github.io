@@ -18,11 +18,13 @@ skills:
   - Design for Manufacturing
 main-image: /assets/images/projects/cnc_gear_cutting/main.png
 images:
-  - /assets/images/projects/cnc_gear_cutting/gear_blank.jpeg
-  - /assets/images/projects/cnc_gear_cutting/custom_arbor.jpeg
-  - /assets/images/projects/cnc_gear_cutting/cutter_setup.jpeg
-  - /assets/images/projects/cnc_gear_cutting/rotary_module.jpeg
-  - /assets/images/projects/cnc_gear_cutting/final_gear.jpeg
+  - 1.JPEG
+  - 2.JPEG
+  - 3.JPEG
+  - 4.JPEG
+  - 5.JPEG
+  - 6.JPEG
+  - 7.JPEG
 
 ---
 

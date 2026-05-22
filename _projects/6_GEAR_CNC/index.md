@@ -67,7 +67,6 @@ For the selected gear:
 
 Basic gear calculation:
 
-```text
 Pitch Diameter = Module × Number of Teeth
 
 Pitch Diameter = 0.5 × 20 = 10 mm

@@ -16,9 +16,9 @@ skills:
   - G-code Generation
   - Manufacturing Process Planning
   - Design for Manufacturing
-main-image: /assets/images/projects/cnc_gear_cutting/main.png
+main-image: /assets/images/projects/cnc_gear_cutting/7.jpeg
 images:
-  - /1.jpeg
+  - /01.jpeg
   - /2.jpeg
   - /3.jpeg
   - /4.jpeg

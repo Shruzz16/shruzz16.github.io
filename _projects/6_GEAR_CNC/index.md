@@ -24,7 +24,7 @@ images:
   - /4.jpeg
   - /5.jpeg
   - /6.jpeg
-    
+  - /7.jpeg
 ---
 
 Manufactured a **20-tooth Module 0.5 brass involute spur gear** using a **rotary CNC setup**. The project focused on connecting **gear geometry, custom workholding, CNC machine setup, G-code generation, and multi-pass machining** to produce a small functional gear.
